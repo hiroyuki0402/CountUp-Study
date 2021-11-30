@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "30820c4bf9f32b64279dd864c16773cd"
+build_time: [1596980332, 717740000]
+inputs:
+  "/Users/shiraishihiroyuki/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099\u5B66\u7FD2/Swift/countUp/countUp/ViewController.swift": [1596980076, 793558370]
+  "/Users/shiraishihiroyuki/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099\u5B66\u7FD2/Swift/countUp/countUp/AppDelegate.swift": [1596976535, 752465444]
+  "/Users/shiraishihiroyuki/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099/\u30D5\u309A\u30ED\u30AF\u3099\u30E9\u30DF\u30F3\u30AF\u3099\u5B66\u7FD2/Swift/countUp/countUp/SceneDelegate.swift": [1596976535, 762400884]
