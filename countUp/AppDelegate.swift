@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  countUp
 //
-//  Created by 白石裕幸 on 2021/02/09.
+//  Created by Hiroyuki on 2021/11/09.
 //  Copyright © 2020 hiroyuki shiraishi. All rights reserved.
 //
 

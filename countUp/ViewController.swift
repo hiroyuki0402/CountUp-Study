@@ -2,34 +2,40 @@
 //  ViewController.swift
 //  countUp
 //
-//  Created by 白石裕幸 on 2021/02/09.
-//  Copyright © 2020 hiroyuki shiraishi. All rights reserved.
-//
+//  Created by Hiroyuki on 2021/11/09.
+
 
 import UIKit
 
 class ViewController: UIViewController {
-    
-    
-    private var count = 0
-    
-    @IBOutlet private var UIImageviewA: UIImageView!
-    @IBOutlet private weak var countLabel: UILabel!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        countLabel.text = "0"
+    /// カウント用のプロパティ
+    private  var count = 0
+    ///   ラベル
+    @IBOutlet private weak var countLabel: UILabel! {
+        didSet {
+            countLabel.text = "0"
+        }
     }
-    @IBAction private func plus(_ sender: Any) {
-        count += 1
-        countLabel.text = String(count)
+    /// ボタンタップ時
+    /// - Parameter sender: ボタン押下時
+    ///  - tag1: プラス
+    ///  - tag2: マイナス
+    ///  - tagその他: リセット
+    @IBAction private func didtapButton(_ sender: UIButton) {
+        switch sender.tag {
+        case 1:
+            count += 1
+            confugar(count: count)
+        case 2:
+            count -= 1
+            confugar(count: count)
+        default:
+            confugar(count: 0)
+        }
     }
-    @IBAction private func minus(_ sender: Any) {
-        count -= 1
-        countLabel.text = String(count)
+    /// カウントをLabelに反映
+    /// - Parameter count: カウントの値
+    func confugar<T>(count: T) {
+        countLabel.text = "\(count)"
     }
-    @IBAction private func reset(_ sender: Any) {
-        countLabel.text = "0"
-    }
-    
 }
